@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.row{
+	
+	margin-top:65px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.icon{
+	font-size:40px;
+	border:none;
+}
+.col-lg-mob{
+	
+	margin-bottom:20px;
+	width: calc(100% * (1/3) - 10px - 1px);
+}
+.icon-info{
+	font-size:25px;
+}
+
+}
+@media screen and (max-width:768px ){
+	body{
+		background-color: orange;
+	}
+	.icon{
+		font-size:25px;
+	}
+	.icon-info{
+		font-size:15px;
+	}
+}
